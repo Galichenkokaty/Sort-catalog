@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 		host: '0.0.0.0',
 	},
 	app: {
-		baseURL: '/Sort-catalog/dist/'
+		baseURL: '/Sort-catalog/.output/public/'
 	},
 
     css: ['~/assets/css/style.css'],
