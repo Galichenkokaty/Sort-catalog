@@ -1,0 +1,45 @@
+/* SF Pro Display */
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+    url('assets/fonts/SFProDisplay-Regular.ttf') format('ttf'),
+    url('assets/fonts/SFProDisplay-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+    url('assets/fonts/SFProDisplay-Medium.ttf') format('ttf'),
+    url('assets/fonts/SFProDisplay-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('assets/fonts/SFProDisplay-Semibold.ttf') format('ttf'),
+    url('assets/fonts/SFProDisplay-Semibold.woff') format('woff');
+}
+
+/* SF UI Text */
+
+@font-face {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+    url('assets/fonts/SFUIDisplay-Medium.ttf') format('ttf'),
+    url('assets/fonts/SFUIDisplay-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+    url('assets/fonts/SFUIDisplay-Regular.ttf') format('ttf'),
+    url('assets/fonts/SFUIDisplay-Regular.woff') format('woff');
+}
