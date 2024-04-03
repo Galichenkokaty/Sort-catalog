@@ -84,7 +84,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/628f0f1d-6909-4111-90b4-8b449f39fd2e.json"
+        "./manifest/meta/9e7cbc21-d9d2-452a-be5b-60ec1eccd772.json"
       ],
       "#build": [
         "."
@@ -126,7 +126,6 @@
   ],
   "exclude": [
     "../node_modules",
-    "../../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/nuxt-icons/runtime/server",
     "../node_modules/@nuxt/image/runtime/server",
