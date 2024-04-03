@@ -4,7 +4,7 @@ import { $fetch } from "ofetch";
 import { createHooks } from "hookable";
 import { getContext } from "unctx";
 import { sanitizeStatusCode, createError as createError$1, appendHeader } from "h3";
-import { withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL, isEqual, stringifyParsedURL, stringifyQuery, parseQuery, withTrailingSlash, withoutTrailingSlash, withLeadingSlash, encodePath, encodeParam } from "ufo";
+import { withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL, isEqual, stringifyParsedURL, stringifyQuery, parseQuery, withTrailingSlash, withoutTrailingSlash, withLeadingSlash, encodeParam, encodePath } from "ufo";
 import { getActiveHead } from "unhead";
 import { defineHeadPlugin, composableNames } from "@unhead/shared";
 import { toRouteMatcher, createRouter } from "radix3";
@@ -1403,7 +1403,7 @@ const getImage = (src, { modifiers = {}, baseURL: baseURL2 } = {}, ctx) => {
 };
 const validateDomains = true;
 const supportsAlias = true;
-const ipxStaticRuntime$zQLbJclNZR = /* @__PURE__ */ Object.freeze({
+const ipxRuntime$TyCxHkdz4X = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   getImage,
   supportsAlias,
@@ -1420,7 +1420,7 @@ const imageOptions = {
     "2xl": 1536
   },
   "presets": {},
-  "provider": "ipxStatic",
+  "provider": "ipx",
   "domains": [],
   "alias": {},
   "densities": [
@@ -1432,7 +1432,7 @@ const imageOptions = {
   ]
 };
 imageOptions.providers = {
-  ["ipxStatic"]: { provider: ipxStaticRuntime$zQLbJclNZR, defaults: {} }
+  ["ipx"]: { provider: ipxRuntime$TyCxHkdz4X, defaults: {} }
 };
 const useImage = () => {
   const config = /* @__PURE__ */ useRuntimeConfig();
