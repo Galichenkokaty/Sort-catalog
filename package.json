@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "homepage": "https://galichenkokaty.github.io/Sort-catalog/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

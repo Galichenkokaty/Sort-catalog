@@ -58,7 +58,7 @@ function _expandFromEnv(value) {
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "52cedb5e-a15a-4734-a106-ff53f7067a19"
+    "buildId": "448293d8-19b5-4fee-b6ec-25901f3a5954"
   }
 };
 
@@ -68,7 +68,7 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/Sort-catalog/",
+    "baseURL": "/Sort-catalog/dist/",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
